@@ -1,0 +1,15 @@
+<form class="signup">
+  <div class="regis-form">
+    <div class="input">
+      <h1 id="header">Register</h1>
+      <input type="text" class="form-control" id="username" placeholder="ชื่อผู้ใช้ (Username)">
+      <input type="password" class="form-control" id="password" placeholder="รหัสผ่าน (Password)">
+      <input type="password" class="form-control" id="cfpassword" placeholder="ยืนยันรหัสผ่านอีกครั้ง (Confirm Password)">
+      <input type="text" class="form-control" id="name" placeholder="ชื่อ-สกุล">
+      <input type="email" class="form-control" id="mail" placeholder="E-Mail">
+      <div class="forBtn">
+        <button type="submit" class="btn btn-success" [routerLink]="['/login']">Register</button>
+      </div>
+    </div>
+  </div>
+</form>
